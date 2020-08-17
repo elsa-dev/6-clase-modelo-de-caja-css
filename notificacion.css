@@ -1,5 +1,5 @@
 * {
-    box-sizing: 0;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -9,24 +9,21 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-decoration: none;
 }
-
 .centro-pagina {
-    width: 100vw;
+    text-align: center;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-    
 
-.tarjeta {
-    /* border: 1px solid #8C8C9C; */
+ .tarjeta {
     background-color: #FBFBFB;
     color: #8C8C9C;
-    padding: 30px 30px;
-     width: 350px;
-     height: 300px;
-     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.19);
+    padding: 30px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 200px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.19);
 }
 
 .campana {
@@ -52,13 +49,11 @@ body {
 }
 
 .boton-azul {
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     background-color: #588BDA;
+    border: 0px;
     border-radius: 10px;
     color: white;
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.19);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
